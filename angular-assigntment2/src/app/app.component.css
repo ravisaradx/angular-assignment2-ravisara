@@ -1,0 +1,15 @@
+#buttons {
+    display: flex;
+    flex-direction: row;
+    width: 18%;
+    margin-left: 41%;
+}
+
+#login, #demographic {
+    margin: 8px;
+    background-color: #006CA5;
+    color: whitesmoke;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 5px;
+}

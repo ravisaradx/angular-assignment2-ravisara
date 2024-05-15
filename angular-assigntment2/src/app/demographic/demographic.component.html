@@ -1,0 +1,29 @@
+<div [formGroup]="demoGroup" id="demo">
+
+<label for="name">name</label>
+<br>
+<input type="text" formControlName="name">
+<br>
+
+<label for="lastname">lastname</label>
+<br>
+<input type="text" formControlName="lastname">
+<br>
+
+<label for="birthDate">birth date</label>
+<br>
+<input type="date" formControlName="birthDate" id="bd">
+<br>
+
+<label for="tel">tel</label>
+<br>
+<input type="tel" formControlName="tel">
+<br>
+
+<label for="hobbies">hobbies</label>
+<br>
+<input type="hobbies" formControlName="hobbies">
+<br>
+
+</div>
+<button id="submit" (click)="check()">submit</button>
