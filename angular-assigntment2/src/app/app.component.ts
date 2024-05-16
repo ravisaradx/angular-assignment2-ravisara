@@ -28,4 +28,8 @@ export class AppComponent {
   toStructural() {
     this.router.navigate(['/test-structural-directive'])
   }
+
+  toPipe() {
+    this.router.navigate(['/test-pipe'])
+  }
 }
