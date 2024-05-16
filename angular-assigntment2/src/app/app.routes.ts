@@ -1,6 +1,8 @@
 import { Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { DemographicComponent } from './demographic/demographic.component';
+import { TestAttributeDirectiveComponent } from './test-attribute-directive/test-attribute-directive.component';
+import { TestStructuralDirectiveComponent } from './test-structural-directive/test-structural-directive.component';
 
 export const routes: Routes = [
     {
@@ -10,5 +12,13 @@ export const routes: Routes = [
     {
         path:'demographic',
         component: DemographicComponent
+    },
+    {
+        path:'test-attribute-directive',
+        component: TestAttributeDirectiveComponent
+    },
+    {
+        path:'test-structural-directive',
+        component: TestStructuralDirectiveComponent
     }
 ];

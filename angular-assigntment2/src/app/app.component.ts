@@ -20,4 +20,12 @@ export class AppComponent {
   toDemographic() {
     this.router.navigate(['/demographic'])
   }
+
+  toAttribute() {
+    this.router.navigate(['/test-attribute-directive'])
+  }
+
+  toStructural() {
+    this.router.navigate(['/test-structural-directive'])
+  }
 }
